@@ -4,6 +4,7 @@ var port = 3000;
 
 app.set('view engine', 'jade');
 
+app.use('/src', express.static(__dirname + '/src'));
 app.get('/', function(req, res) {
   res.render('index');
 });
