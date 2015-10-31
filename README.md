@@ -4,15 +4,13 @@ Hey, I made this repository just to document my experience learning [webpack](ht
 Feel free to use this as a reference when your learning webpack. Enjoy!
 
 ## Install webpack
-------------------
 
 ```bash
 npm i webpack -g
 ```
-> Keep in mind that you need to have **[node js](http://nodejs.org)** installed
+> Keep in mind that you need to have [node js](http://nodejs.org) installed
 
 ## Setup the compilation
--------------------------
 
 Create ``entry.js`` file. This the file that it to the bundled up and included at a later stage.
 
@@ -32,7 +30,7 @@ Create a index.html file and include the ``bundle.js`` file.
 ```
 
 > Those using node or express, you can either create a ``index.ejs`` file or a ``index.jade`` file.
-> I am going with jade. Check out my index file in the ``views`` folder.
+> I am going with jade. Check out my [index file](../blob/master/views/index.jade) in the ``views`` folder.
 
 Now run the following in the terminal(paths of files are specific to your folder structure)
 ```bash
