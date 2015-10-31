@@ -1,0 +1,26 @@
+{
+  "name": "learning-webpack",
+  "version": "1.0.0",
+  "description": "Hey, I made this repository just to document my experience learning [webpack](http://webpack.github.io), obviously! Haha!\r Feel free to use this as a reference when your learning webpack. Enjoy!",
+  "main": "app.js",
+  "dependencies": {
+    "css-loader": "^0.21.0",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "style-loader": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelchristopher/learning-webpack.git"
+  },
+  "author": "Samuel Paul Christopher <thesamchris@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuelchristopher/learning-webpack/issues"
+  },
+  "homepage": "https://github.com/samuelchristopher/learning-webpack#readme"
+}
